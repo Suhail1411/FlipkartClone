@@ -1,0 +1,21 @@
+.form-control {
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+}
+.bi-search{
+    position: absolute;
+    z-index: 10;
+    right: 39%;
+    color: blue;
+    top: 15px;
+}
+@media (min-width:1200px) {}
+@media (max-width:990px) {
+    .bi-search{
+        padding-left: 180px;
+    }
+}
+@media (max-width:800px) {}
+@media (max-width:600px) {}
+@media (max-width:480px) {}
